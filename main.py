@@ -24,7 +24,7 @@ headers = {
 #     for item in companies_info:
 #         try:
 #             end = item.get('href')
-#             full_url = 'https://clutch.co/' + end
+#             full_url = 'https://clutch.co' + end
 #             text = item.text.strip("\n ")
 #             companies_url_list[text] = full_url
 #         except:
